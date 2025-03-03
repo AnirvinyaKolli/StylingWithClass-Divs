@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Tahoma, san-serif;
+}
+
+.Little {
+  width: 100px;
+}
+#Big{
+  width: 500px;
+}
+.p1{
+  color: #bd0000;
+}
+.p2{
+  color: #8654d6;
+}
+.p3{
+  color: #25a000;
+
+}
