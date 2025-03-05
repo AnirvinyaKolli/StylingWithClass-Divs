@@ -1,16 +1,33 @@
+@font-face {
+  font-family: "spookyFont";
+  src: url("Fonts/Ghastly Panic.ttf");
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 body {
-  font-family: Tahoma, san-serif;
+  font-family: Roboto, sans-serif;
+  background-color: blanchedalmond;
+}
+h1{
+  font-family: spookyFont;
 }
 
 .Little {
   width: 100px;
 }
 #Big{
-  width: 500px;
+  width: 1000px;
 }
 .p1{
   color: #bd0000;
